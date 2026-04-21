@@ -789,7 +789,7 @@
     font-size: 0.95rem;
     font-weight: 500;
     transition: all var(--trans);
-    min-width: 320px;
+    width: min(100%, 420px);
     justify-content: flex-start;
   }
   .contact-link:hover {
