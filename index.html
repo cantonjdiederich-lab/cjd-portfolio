@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Canton Diederich — Portfolio</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+ <nav id="navbar">
+   <div class="nav-inner">
+     <a href="#hero" class="nav-logo">C<span>.</span>Diederich</a>
+     <div class="nav-links">
+       <a href="#about">About</a>
+       <a href="#skills">Skills</a>
+       <a href="#projects">Projects</a>
+       <a href="#experience">Experience</a>
+       <a href="#education">Education</a>
+       <a href="#contact">Contact</a>
+       <a href="Canton_Diederich_CV.docx" download class="nav-resume">&#8595; Resume</a>
+     </div>
+     <button class="hamburger" id="hamburger" aria-label="Menu">
+       <span></span><span></span><span></span>
+     </button>
+   </div>
+ </nav>
+
+
+ <div class="mobile-menu" id="mobileMenu">
+   <a href="#about" onclick="closeMobile()">About</a>
+   <a href="#skills" onclick="closeMobile()">Skills</a>
+   <a href="#projects" onclick="closeMobile()">Projects</a>
+   <a href="#experience" onclick="closeMobile()">Experience</a>
+   <a href="#education" onclick="closeMobile()">Education</a>
+   <a href="#contact" onclick="closeMobile()">Contact</a>
+ </div>
+
+
+ <section id="hero">
+   <div class="hero-bg"></div>
+   <div class="hero-grid-lines"></div>
+   <div class="container">
+     <div class="hero-inner">
+       <div class="hero-badge">Available for opportunities</div>
+       <h1 class="hero-name">Canton<br>Diederich</h1>
+       <p class="hero-title">Business Analytics &amp; Finance &amp; Technology Student &nbsp;|&nbsp; Aspiring Financial Analyst</p>
+       <p class="hero-tagline">
+         I use data to <em>uncover insights</em>, solve problems, and support<br>better decision-making.
+       </p>
+       <div class="hero-cta">
+         <a href="#projects" class="btn btn-primary">View My Work</a>
+         <a href="#contact" class="btn btn-outline" style="color:#8ecfe8;border-color:rgba(58,158,212,0.4);">Get in Touch</a>
+       </div>
+     </div>
+   </div>
+   <div class="hero-scroll">
+     <div class="scroll-line"></div>
+     <span>Scroll</span>
+   </div>
+ </section>
+
+
+ <section id="about" class="section">
+   <div class="container">
+     <div class="eyebrow">About Me</div>
+     <h2 class="section-title">Turning Data Into<br>Meaningful Decisions</h2>
+     <div class="about-grid">
+       <div class="about-left">
+         <div class="headshot-wrap">
+           <img src="cjdheadshot.jpeg" alt="Canton Diederich headshot">
+         </div>
+         <div class="about-text">
+           <p>I'm a student at Creighton University pursuing a Bachelor of Science in Business Administration with a double major in Business Analytics and Finance &amp; Technology. My coursework and project work has centered on analytics, databases, finance, and using data to support better business decisions.</p>
+           <p>I work primarily with Python, SQL, MySQL, PHP, JavaScript, Microsoft Excel, Power BI, Microsoft Access, and AppStudio to clean data, identify trends, and communicate results clearly.</p>
+           <p>I'm especially interested in finance and analyst roles where I can combine business knowledge with quantitative thinking, practical problem-solving, and data-driven decision-making.</p>
+         </div>
+       </div>
+
+
+       <div class="about-stats">
+         <div class="stat-card">
+           <div class="stat-number">3.75</div>
+           <div class="stat-label">GPA</div>
+         </div>
+         <div class="stat-card">
+           <div class="stat-number stat-accent">2026</div>
+           <div class="stat-label">Graduation Year</div>
+         </div>
+         <div class="stat-card">
+           <div class="stat-number">5000+</div>
+           <div class="stat-label">Specs Quality Controlled</div>
+         </div>
+         <div class="stat-card">
+           <div class="stat-number">1000+</div>
+           <div class="stat-label">Daily Patrons Supervised</div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+
+
+ <section id="skills" class="section section-alt">
+   <div class="container">
+     <div class="eyebrow">Capabilities</div>
+     <h2 class="section-title">Skills &amp; Tools</h2>
+     <p class="section-subtitle">
+       A focused toolkit developed through coursework, projects, and applied business analytics work.
+     </p>
+
+
+     <div class="skills-grid">
+       <div class="skill-group">
+         <h3 class="skill-group-title"><span class="icon">⌨</span> Technical Skills</h3>
+         <div class="skill-tag-list">
+           <div class="skill-tag">Python</div>
+           <div class="skill-tag">SQL</div>
+           <div class="skill-tag">MySQL</div>
+           <div class="skill-tag">PHP</div>
+         </div>
+       </div>
+
+
+       <div class="skill-group">
+         <h3 class="skill-group-title"><span class="icon">📊</span> Analytical Skills</h3>
+         <div class="skill-tag-list">
+           <div class="skill-tag">Statistical Analysis</div>
+           <div class="skill-tag">Data Visualization</div>
+           <div class="skill-tag">Business Analytics</div>
+           <div class="skill-tag">Trend Analysis</div>
+         </div>
+       </div>
+
+
+       <div class="skill-group">
+         <h3 class="skill-group-title"><span class="icon">🛠</span> Tools &amp; Environment</h3>
+         <div class="skill-tag-list">
+           <div class="skill-tag">Microsoft Excel</div>
+           <div class="skill-tag">Power BI</div>
+           <div class="skill-tag">Microsoft Access</div>
+           <div class="skill-tag">Outlook</div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+
+
+ <section id="projects" class="section">
+   <div class="container">
+     <div class="eyebrow">Work Samples</div>
+     <h2 class="section-title">Selected Projects</h2>
+     <p class="section-subtitle">A sample of finance, analytics, and business-focused work.</p>
+
+
+     <div class="projects-grid">
+       <article class="project-card">
+         <div class="project-header">
+           <div class="project-number">Project 01</div>
+           <h3 class="project-title">National Census Data Analytics in Python</h3>
+         </div>
+         <div class="project-body">
+           <div class="project-points">
+             <div class="project-point">Used data frame filtering and manipulation techniques to analyze a dataset using libraries including pandas, numpy, and seaborn.</div>
+             <div class="project-point">Created visualizations to interpret and analyze national census data.</div>
+             <div class="project-point">Applied structured analysis using Python libraries to organize findings clearly.</div>
+           </div>
+           <div class="project-tools">
+             <span class="tool-chip">Python</span>
+             <span class="tool-chip">pandas</span>
+             <span class="tool-chip">numpy</span>
+             <span class="tool-chip">seaborn</span>
+           </div>
+         </div>
+       </article>
+
+
+       <article class="project-card">
+         <div class="project-header">
+           <div class="project-number">Project 02</div>
+           <h3 class="project-title">Database Creation and Analysis Project</h3>
+         </div>
+         <div class="project-body">
+           <div class="project-points">
+             <div class="project-point">Created a database in SQL to analyze the viability of a marketing project continuing.</div>
+             <div class="project-point">Used queries and views to build a prototype of customer, employee, and product data.</div>
+             <div class="project-point">Used PHP code and JavaScript to build a front-end application that interpreted the data and showed the project should not continue.</div>
+           </div>
+           <div class="project-tools">
+             <span class="tool-chip">SQL</span>
+             <span class="tool-chip">PHP</span>
+             <span class="tool-chip">JavaScript</span>
+             <span class="tool-chip">MySQL</span>
+           </div>
+         </div>
+       </article>
+
+
+       <article class="project-card">
+         <div class="project-header">
+           <div class="project-number">Project 03</div>
+           <h3 class="project-title">Data Mart Analysis Project</h3>
+         </div>
+         <div class="project-body">
+           <div class="project-points">
+             <div class="project-point">Designed a physical level dimensional data model according to user requirements to create a Microsoft Access database to serve as a data mart.</div>
+             <div class="project-point">Imported a variety of data and built queries to transform and load the appropriate data into the model.</div>
+             <div class="project-point">Used Power BI to model and construct reports on findings from data mart analysis.</div>
+           </div>
+           <div class="project-tools">
+             <span class="tool-chip">Microsoft Access</span>
+             <span class="tool-chip">Power BI</span>
+             <span class="tool-chip">Data Mart</span>
+             <span class="tool-chip">ETL</span>
+           </div>
+         </div>
+       </article>
+     </div>
+   </div>
+ </section>
+
+
+ <section id="experience" class="section section-alt">
+   <div class="container">
+     <div class="eyebrow">Experience</div>
+     <h2 class="section-title">Professional Background</h2>
+     <p class="section-subtitle">Where I've applied what I've learned and built practical skills.</p>
+
+
+     <div class="exp-list">
+       <div class="exp-item">
+         <div class="exp-dot"></div>
+         <div class="exp-meta">
+           <h3 class="exp-role">Scouting Analyst</h3>
+           <span class="exp-period">Oct. 2025 - Present</span>
+         </div>
+         <div class="exp-org">Creighton Baseball Analytics Team — Omaha, Nebraska</div>
+         <div class="exp-points">
+           <div class="exp-point">Analyzed player performance data using statistical models to evaluate pitching, hitting, and defensive metrics for scouting reports.</div>
+           <div class="exp-point">Developed data-driven insights to support roster decisions, opponent scouting, and game strategy.</div>
+           <div class="exp-point">Utilized Excel and statistical analysis techniques to identify performance trends and key predictive indicators.</div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+
+
+ <section id="education" class="section">
+   <div class="container">
+     <div class="eyebrow">Background</div>
+     <h2 class="section-title">Education</h2>
+
+
+     <div class="edu-ath-grid">
+       <div class="info-card">
+         <div class="info-card-icon">🎓</div>
+         <h3 class="info-card-title">Creighton University</h3>
+         <div class="info-card-sub">Bachelor of Science in Business Administration | Expected May 2026 | Omaha, Nebraska</div>
+         <div class="info-list">
+           <div class="info-list-item">Double Major in Business Analytics &amp; Finance and Technology</div>
+           <div class="info-list-item">GPA: 3.75</div>
+           <div class="info-list-item">Structured Query Language</div>
+           <div class="info-list-item">Business &amp; Finance Coursework</div>
+         </div>
+       </div>
+
+
+       <div class="info-card">
+         <div class="info-card-icon">📈</div>
+         <h3 class="info-card-title">Career Goals</h3>
+         <div class="info-card-sub">Finance &amp; Analytics</div>
+         <div class="info-list">
+           <div class="info-list-item">Entry-level analyst role</div>
+           <div class="info-list-item">Financial analysis</div>
+           <div class="info-list-item">Business analytics</div>
+           <div class="info-list-item">Long-term career growth in finance</div>
+         </div>
+         <div class="badge-row">
+           <span class="badge">Finance</span>
+           <span class="badge">Analytics</span>
+           <span class="badge badge-gold">FinTech</span>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+
+
+ <section id="contact" class="section">
+   <div class="hero-bg"></div>
+   <div class="container">
+     <div class="contact-inner">
+       <div class="eyebrow">Contact</div>
+       <h2 class="section-title">Let’s Connect</h2>
+       <p class="section-subtitle">
+         Open to finance and analytics opportunities. Feel free to reach out by email, phone, or LinkedIn.
+       </p>
+
+
+       <div class="contact-links">
+         <a href="mailto:cantonjdiederich@gmail.com" class="contact-link">
+           <div class="contact-link-icon">✉</div>
+           <div>
+             <span class="contact-link-label">Email</span>
+             <span class="contact-link-value">cantonjdiederich@gmail.com</span>
+           </div>
+         </a>
+
+
+         <a href="tel:4029832394" class="contact-link">
+           <div class="contact-link-icon">☎</div>
+           <div>
+             <span class="contact-link-label">Phone</span>
+             <span class="contact-link-value">(402) 983-2394</span>
+           </div>
+         </a>
+
+
+         <a href="#" class="contact-link">
+           <div class="contact-link-icon">in</div>
+           <div>
+             <span class="contact-link-label">LinkedIn</span>
+             <span class="contact-link-value">linkedin.com/in/canton-diederich-371b11288</span>
+           </div>
+         </a>
+       </div>
+
+
+       <p style="color:rgba(255,255,255,0.5);font-size:0.85rem;margin-top:0.5rem;">
+         Reach out via email or LinkedIn above — I'll get back to you promptly.
+       </p>
+     </div>
+   </div>
+ </section>
+
+
+ <footer>
+   <p>&copy; 2026 Canton Diederich &mdash; Portfolio &mdash; Omaha, Nebraska</p>
+ </footer>
+
+
+ <script src="script.js"></script>
+</body>
+</html>
